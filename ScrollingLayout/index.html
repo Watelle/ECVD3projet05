@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blueprint: Fixed Background Scrolling Layout</title>
+		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
+		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+
+		<header class="clearfix">
+			<div class="logo">
+				<img src="images/logo.jpg">
+			</div>
+				<nav class="barre">
+					<a href="#fbsection1" >L'histoire</a>
+					<a href="#fbsection2">Les trois préférés</a>
+					<a href="#fbsection5">Le prix</a>
+				</nav>
+
+		</header>
+
+<body>
+
+
+	<div class="container">
+
+		<div id="cbp-fbscroller" class="cbp-fbscroller">
+
+		<section id="fbsection1">
+			<div class="section-content">
+				<h1> Découverte </h1>
+
+				<p> Il existe de nombreuses légendes à propos de la découverte de l’effet excitant du café. Une première parle d’un jeune berger en Abyssinie, l’Ethiopie actuelle, aux environs de l’an 850. Il avait remarqué que ses chèvres étaient devenues particulièrement absorbé certaines baies.
+				Les moines gouttaient les fruits, mais étaient déçus par le goût amer et les jetaient au feu. Ensuite, il se répendait un parfum délicieux. De façon bizarre, les moines faisaient , à partir des fruits ainsi torrifiés, une infusion qu’ils vantaient comme un cadeau de Dieu, parce qu’elles les aidait à rester éveillés pendant la prière. </p>
+			</div>
+
+
+	</section>
+
+
+
+	<section id="fbsection2">
+		<div class="section-content2">
+			<h2> L'expresso </h2>
+
+	<p> Un espresso est de couleur brun foncé et surmonté d'une mousse dorée surnageant appelée crema, composée d'huiles, de protéines et de sucres.
+
+La crema est responsable de préserver les aromes et maintenir la température du café. La crema idéale a une couleur noisette avec des reflets de couleur brune halée. Elle doit être dense, uniforme et lisse et ne pas présenter des bulles à sa surface. Son épaisseur idéale est de 2 mm et elle ne doit pas disparaitre lorsque le café est brassé3.
+
+Pour avoir droit au nom « espresso », la boisson chaude doit avoir été préparée avec au moins 7 g de café torréfié par décilitre (contre 5 g pour un « café »).
+
+Le café espresso diffère du café habituellement préparé par filtration ou par simple percolation (comme dans les cafetières italiennes) par sa consistance épaisse et son fort arôme. </p>
+</div>
+
+	</section>
+
+
+
+	<section id="fbsection3">
+		<div class="section-content3">
+	<h3> Le cappucino </h3>
+
+	<p> Pour réaliser un cappuccino, on utilise de préférence du lait entier (plus gras, permet une meilleure émulsion). Les quantités sont de 25 ml1 d'expresso et 125 ml1 de lait froid (3-5 °C)1 monté avec de la vapeur.
+
+Pour préparer le lait et le faire mousser, on utilise un mousseur à lait, aussi appelé émulsionneur.
+
+La pointe de la busette du mousseur à lait est ensuite légèrement introduite dans le lait et la température est portée à environ 55 °C avec un léger mouvement vertical (une température plus élevée détruit les protéines et "brûle" le lait). Pour finir, la mousse de lait est versée sur l'espresso, réalisé dans une tasse de préférence en porcelaine blanche d'une capacité de 150-160 ml1.
+	</p>
+
+</div>
+	</section>
+
+
+
+	<section id="fbsection4">
+<div class="section-content4">
+	<h4> Le cappucino </h4>
+
+	<p> Cette boisson aurait été créée par Joseph Sheridan à la fin des années 1930 à Foynes en Irlande, où arrivaient de 1939 à 1945 les vols transatlantiques en hydravion. Les passagers, pour la plupart militaires alors frigorifiés et effrayés voulaient boire une boisson chaude et revigorante. Elle devait ressembler à un verre de Guiness. Le chef de l'établissement, Joseph Sheridan eut l'idée de faire cette boisson pour redonner de l'énergie à ces voyageurs. Une plaque visible à l'aéroport de Shannon commémore cette création1.
+
+L'Irish coffee a ensuite été recréé en 1952 après plusieurs jours de recherche par Jack Koeppler, propriétaire du Buena Vista à San Francisco, après le défi de l'écrivain Stanton Delaplane2 qui lui demanda s'il était capable de faire cette célèbre boisson servie à l'aéroport de Shannon.
+	</p>
+
+</div>
+	</section>
+
+</div>
+</div>
+
+</body>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+		<script src="js/jquery.debouncedresize.js"></script>
+		<script src="js/cbpFixedScrollLayout.min.js"></script>
+		<script>
+			$(function() {
+				cbpFixedScrollLayout.init();
+			});
+		</script>
+	</body>
+</html>
